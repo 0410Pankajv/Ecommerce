@@ -1,7 +1,5 @@
 **MERN STACK ECOMMERCE WEBSITE**
 
-## Author
-SAYEDUL KARIM
 
 
 # Install Dependencies
