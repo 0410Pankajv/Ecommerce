@@ -15,10 +15,10 @@ process.on("uncaughtException" , (err) => {
 
 //Config
 // All dot.env file should call after CONFIG SETUP
-if(process.env.NODE_ENV!=="PRODUCTION"){
+
 
     require('dotenv').config({path: "backend/config/config.env"});
-}
+
 
 
 // Connecting to Database
