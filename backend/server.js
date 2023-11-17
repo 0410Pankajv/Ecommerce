@@ -33,10 +33,6 @@ cloudinary.config({
 });
 
 
-const cors = require('cors');
-app.use(cors({
-    origin: ['https://emart-backend-wph2.onrender.com']
-}));
 
 const server = app.listen(process.env.PORT, ()=>{
 
